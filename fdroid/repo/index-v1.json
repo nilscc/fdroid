@@ -1,0 +1,61 @@
+{
+  "repo": {
+    "timestamp": 1676676863000,
+    "version": 20001,
+    "name": "nils.cc",
+    "icon": "icon.png",
+    "address": "https://raw.githubusercontent.com/nilscc/fdroid/master/fdroid/repo",
+    "description": "private repo of small apps i build",
+    "mirrors": [
+      "https://raw.githubusercontent.com/nilscc/fdroid/master/fdroid/repo/repo"
+    ]
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "suggestedVersionCode": "3",
+      "license": "Unknown",
+      "name": "weechat",
+      "added": 1676674252000,
+      "icon": "cc.nils.weechat.3.png",
+      "packageName": "cc.nils.weechat",
+      "lastUpdated": 1676676863000
+    }
+  ],
+  "packages": {
+    "cc.nils.weechat": [
+      {
+        "added": 1676676863000,
+        "apkName": "app-release.apk",
+        "hash": "ad16f94acc8f9c87a54d1c1513a6d7e12a60da7f98af381208eeca78212e55f7",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "cc.nils.weechat",
+        "sig": "f1a43b94917312e4f4512482d6ea1e99",
+        "signer": "25bcea46482dd568769d198c858b3239b0eca2ef974cd54a51cb9a1479a4f29c",
+        "size": 21855728,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 3,
+        "versionName": "1.0.22"
+      }
+    ]
+  }
+}
